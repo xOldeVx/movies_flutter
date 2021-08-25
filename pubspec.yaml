@@ -1,0 +1,34 @@
+name: movies
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+dependencies:
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  http: ^0.13.3
+  qr_code_scanner: ^0.5.2
+  permission_handler: ^8.1.4+2
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  hive_generator: ^1.1.0
+  build_runner: ^2.1.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
